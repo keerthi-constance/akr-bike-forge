@@ -1,0 +1,28 @@
+// Login component styles
+.login-container {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-form {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.demo-credentials {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+// Animation for loading spinner
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
